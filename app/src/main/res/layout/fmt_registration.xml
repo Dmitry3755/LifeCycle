@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.registration.RegistrationFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            style="@style/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_new_pin" />
+
+        <EditText
+            android:id="@+id/enter_new_pin"
+            style="@style/pin_edit_text" />
+
+        <TextView
+            style="@style/title_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/repeat_new_pin" />
+
+        <EditText
+            android:id="@+id/repeat_new_pin"
+            style="@style/pin_edit_text" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <Button
+                android:id="@+id/create_pin_button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/create_pin" />
+
+            <Space
+                android:layout_width="15dp"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/have_pin_button"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:text="@string/have_pin" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

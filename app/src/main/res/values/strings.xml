@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Life Cycle Application</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="enter_new_pin">Enter new PIN</string>
+    <string name="repeat_new_pin">Repeat new PIN</string>
+    <string name="enter_pin">Enter PIN</string>
+
+    <string name="create_pin">Create</string>
+    <string name="have_pin">Have PIN</string>
+
+    <string name="enter">Enter</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
